@@ -2,11 +2,15 @@ import React from 'react';
 import './App.css';
 
 import Header from './components/Layouts/Header.js';
+import Meals from './components/Meals/Meals';
 
 function App() {
   return (
     <React.Fragment>
         <Header/>
+        <main>
+            <Meals/>
+        </main>
     </React.Fragment>
   );
 }
